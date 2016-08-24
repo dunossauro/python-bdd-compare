@@ -22,6 +22,10 @@ Pretendo tomar como referência os testes unitários disponíveis na biblioteca 
 |   ----     |      ---   |
 | SO         | ArchLinux  |
 | Python     | 3.5.2      |
+
+### Versões dos frameworks
+| framework  | Versão     |
+|   ----     |      ---   
 | Behave     | 1.2.5      |
 | Lettuce    | 0.2.23     |
 | Pycukes    | 0.2        |
