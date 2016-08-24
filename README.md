@@ -6,11 +6,15 @@ Pretendo tomar como referência os testes unitários disponíveis na biblioteca 
 
 ### Frameworks escolhidos
 
-    - [Behave](behave/impressoes.md)
-    - [~~Lettuce~~](lettuce/impressoes.md) (Não tem suporte a python3)
-    - [Pycuckes](pycuckes/impressoes.md)
-    - [Pytest-bdd](pytest-bdd/impressoes.md)
-    - [Radish](radish/impressoes.md)
+[Behave](behave/impressoes.md)
+
+[~~Lettuce~~](lettuce/impressoes.md) (Não tem suporte a python3)
+
+[Pycuckes](pycuckes/impressoes.md)
+
+[Pytest-bdd](pytest-bdd/impressoes.md)
+
+[Radish](radish/impressoes.md)
 
 ### Teste 1 - Diferenças em uma implementação simples
 
