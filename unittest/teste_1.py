@@ -1,7 +1,6 @@
 from unittest import TestCase, main
 from selenium import webdriver
 
-
 # ----- Funcionalidade: A palavra python existe na descrição do site
 class teste(TestCase):
     # ----- Contexto
