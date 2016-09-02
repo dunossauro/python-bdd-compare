@@ -6,15 +6,15 @@ Pretendo tomar como referência os testes unitários disponíveis na biblioteca 
 
 ### Frameworks escolhidos
 
-[Behave](behave/impressoes.md)
+[Behave](https://github.com/behave/behave)
 
-[~~Lettuce~~](lettuce/impressoes.md) (Não tem suporte a python3)
+[Lettuce](https://github.com/gabrielfalcao/lettuce)
 
-[Pycukes](pycukes/impressoes.md)
+[Pycukes](https://github.com/hltbra/pycukes)
 
-[Pytest-bdd](pytest-bdd/impressoes.md)
+[Pytest-bdd](https://github.com/pytest-dev/pytest-bdd)
 
-[Radish](radish/impressoes.md)
+[Radish](http://radish-bdd.io/)
 
 ### Ambiente para execução das comparações
 
@@ -32,17 +32,6 @@ Pretendo tomar como referência os testes unitários disponíveis na biblioteca 
 | Pytest-bdd | 2.17.1     |
 | Radish     | 0.2.10     |
 
-### Teste 1 - Diferenças em uma implementação simples
+## [Resultados](resultados.md)
 
-Quando entrar na página do python, usando selenium, a palavra python deve estar no título
-
-`assert Python in driver.title == True`
-
-#### Resultados
-[unittest](unittest/teste_1.py) - 17 linhas
-
-[Behave](behave/teste_1.py) - 29 linhas (17=py, 12=feature)
-
-Lettuce - Não ofereceu suporte a python3
-
-pycukes - Encontrei problemas na execução e abri uma [issue](https://github.com/hltbra/pycukes/issues/9) no projeto.
+## [impressões finais](impressoes_finais.md)
