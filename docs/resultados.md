@@ -1,6 +1,6 @@
 ### Teste 1 - Diferenças em uma implementação simples
 
-Quando entrar na página do python, usando selenium, a palavra python deve estar no título
+Quando entrar na página do python, usando selenium, a palavra Python deve estar no título
 
 `assert Python in driver.title == True`
 
