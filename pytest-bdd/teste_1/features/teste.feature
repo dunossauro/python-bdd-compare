@@ -1,4 +1,4 @@
-Feature: A palavra python existe na descrição do sit
+Feature: A palavra python existe na descrição do site
 
     Background: preparando o ambiente
         Given setar o browser no selenium

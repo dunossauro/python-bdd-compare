@@ -10,7 +10,7 @@ Nesse teste pretendo pontuar a complexidade de escrever um teste simples e a qua
 
 Pontos:
 
-| Colocad0 | nº de linhas | simplicidade |
+| Colocado | nº de linhas | simplicidade |
 | -------- | ------------ | ------------ |
 | 1º | 3 | 5 |
 | 2º | 2 | 3 |
