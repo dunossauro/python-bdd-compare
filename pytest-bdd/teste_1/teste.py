@@ -1,6 +1,5 @@
-from pytest_bdd import scenarios, given, when, then, parsers
+from pytest_bdd import scenarios, given, then, parsers
 from selenium import webdriver
-from pytest import fixture
 
 scenarios('features')
 
