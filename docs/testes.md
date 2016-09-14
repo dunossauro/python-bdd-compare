@@ -25,6 +25,8 @@ A conclusão que consigo tirar de rodar o mesmo teste em tantas plataformas dife
 Estou realmente habituado a escrever testes usando unittest e o behave. Como combinado a comparação era sempre em relação a simplicidade de rodar testes usando o unittest que não é a melhor base de comparação, nós todos sabemos. Testes funcionais raramente vão ter efeitos positivos usando unittest. Então, sem mais delongas, as impressões de todos os frameworks:
 
 * Behave:
+
+
 Consigo enxergar que o behave, mesmo que superficialmente, tem um start bem básico para quem não sabe nada na documentação, mas não iremos falar de documentação, então...
 No quisito de estruturar os arquivos e ter a opção de background, achei que a dinâmica do behave flui melhor pra quando estamos escrevendo features. As coisas se dão de uma maneira muito simples no código:
 
@@ -49,6 +51,8 @@ Funcionalidade: Quantas maças consigo comer
 ```
 
 * pytest-bdd:
+
+
 Confesso que tive muita dificuldade em rodar esse primeiro teste usando o plugin do pytest. Em quase todos os decoradores de steps tive que usar o parse para fazer o trabalho sujo do pytest-bdd.
 
 ```python
@@ -85,6 +89,8 @@ Eu também realmente não entendo a necessidade de setar onde estarão os arquiv
 
 
 * radish:
+
+
 Ah... o radish...
 
 Senti algumas coisas diferentes quando executei esse primeiro teste. Primeira: Estou muito acostumado com o behave. Tive uma dificuldade em entender que não existe um `Background`, mas existe o `precondition` e realmente essas funcionalidades que o radish por trás no gherkin são fenomenais. Não quero entrar nesse mérito, mas veremos mais disso em outros testes.
@@ -110,10 +116,14 @@ Pra finalizar me senti um pouco preso, mas muito livre. Controverso, não? Apesa
 
 
 * Lettuce
+
+
 Talvez de todos, o lettuce, seja o que tenha me deixado mais decepcionado. A documentação é bem bacana, é mantido por um brasileiro. Mas em que lugar da documentação conta que ele não roda em python 3? Nenhum. Como não faz parte do meu escopo, vou acabar abandonando o Lettuce nesse primeiro teste. Para saber mais sobre o ocorrido [clique aqui](../lettuce/impressoes.md)
 
 * pycukes
-O Pycukes eu não consegui nem executar e conto sobre isso [aqui](../pycukes/impressoes.md)
+
+
+Com o  Pycukes eu não consegui nem executar e conto sobre isso [aqui](../pycukes/impressoes.md)
 
 ### pontos
 
@@ -126,7 +136,41 @@ Em números de linhas:
 2. Radish (2p)
 3. Pytest-bdd (1p)
 
-Em simplicidade
+Em simplicidade:
+
 1. Behave (5p)
 2. Radish (3p)
 3. Pytest-bdd (1p)
+
+## Teste 2 - Documentação
+
+Essa parte da comparação é a que considero mais importante. Todos os frameworks são muitos jovems e o próprio cucumber, pioneiro no assunto, surgiu em [2008](https://www.infoq.com/news/2015/03/bdd-cucumber-testing), então não temos uma literatura vasta no assunto. Na verdade são pouquissimos livros que falam sobre frameworks de BDD.
+
+Então, só podemos aprender de duas maneiras:
+* Com alguém nos ensinando o que conseguiu extrair das documentações; ou
+* Lendo a porra da documentação ([RTMF](https://en.wikipedia.org/wiki/RTFM))
+
+Com isso, pretende-se abordar cinco tópicos diferentes nas documentações:
+
+1. Um quickstart
+2. Clareza na documentação
+3. Documentação da implementação (classes, atributos, funções, código em geral)
+4. Exemplos de uso
+5. Uma busca eficiente (Quase sempre são sites, então uma boa busca pode retornar resultados exatos sobre o que estamos procurando)
+
+Pontos:
+
+| Colocado | Quickstart | Clareza | Implementação | Exemplos | Busca |
+| -------- | ------------ | ------------ | --------- | ----------- | --------- |
+| 1º | 3 | 5 | 3 | 2 | 1 |
+| 2º | 2 | 3 | 2 | 1 | 0 |
+| 3º | 1 | 1 | 1 | 0 | 0 |
+
+### Impressões
+
+### pontos
+
+
+Em números de linhas:
+
+Em simplicidade:
