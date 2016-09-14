@@ -174,3 +174,107 @@ Pontos:
 Em números de linhas:
 
 Em simplicidade:
+
+## Teste 3 - Contexto
+
+Pontos:
+
+### Impressões
+
+### pontos
+
+Em números de linhas:
+
+Em simplicidade:
+
+## Teste 4 - Hooks
+
+Pontos:
+
+
+### Impressões
+
+### pontos
+
+Em números de linhas:
+
+Em simplicidade:
+
+## Teste 5 - Arquivo Gherkin (de features)
+
+Pontos:
+
+
+### Impressões
+
+### pontos
+
+Em números de linhas:
+
+Em simplicidade:
+
+## Teste 6 - Contexto
+
+Pontos:
+
+
+### Impressões
+
+### pontos
+
+Em números de linhas:
+
+Em simplicidade:
+
+## Teste 7 - um teste com média complexidade
+
+Pontos:
+
+
+### Impressões
+
+### pontos
+
+Em números de linhas:
+
+Em simplicidade:
+
+
+## Teste 8 - Ecossistema do framework (integrações com outras ferramentas)
+
+Pontos:
+
+
+### Impressões
+
+### pontos
+
+Em números de linhas:
+
+Em simplicidade:
+
+## Teste 9 - Reports
+
+Pontos:
+
+
+### Impressões
+
+### pontos
+
+Em números de linhas:
+
+Em simplicidade:
+
+## Teste 10 - Um teste com "alta" complexidade
+
+Pontos:
+
+
+### Impressões
+
+### pontos
+
+Em números de linhas:
+
+Em simplicidade:
