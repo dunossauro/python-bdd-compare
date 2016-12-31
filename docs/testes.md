@@ -171,7 +171,13 @@ Pontos:
 ### pontos
 
 
-## Teste 3 - Contexto
+## Teste 3 - Contexto (parte 1)
+
+O teste 3 consiste em uma simples utilização do contexto. No unittest o contexto já é explicito e simples de usar com self. o argumento 'step' já tinha sido usado no primeiro teste com radish. E, no behave, também já foi usado com 'context'. Mas o que quero demonstrar nesse teste em expecífico é a utilização dos mesmos, pois existem arquivos e locais expecíficos para a utilização universal dos mesmos, diferente do unittest que faz isso simplesmente utilizando a classe.
+
+Esse teste não tem um 'produto final' pois ele não executa um 'teste', na verdade vamos testar o uso do contexto.
+
+O que pode ser avaliado aqui é a simplicidade em que os frameworks lidam com compartilhamento de 'atributos', funções e tudo que é possível compartilhar.
 
 Pontos:
 
@@ -209,7 +215,10 @@ Em números de linhas:
 
 Em simplicidade:
 
-## Teste 6 - Contexto
+## Teste 6 - Contexto (parte 2)
+
+Esse teste chega a ser muito parecido com o teste 3, sem nenhuma aplicação visível, mas vamos deixar um pouco mais complexa e com mais arquivos a utilização do contexto.
+
 
 Pontos:
 
