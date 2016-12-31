@@ -6,7 +6,7 @@ from selenium import webdriver
 
 @step('setar o browser no selenium')
 def test(context):
-    context.ff = webdriver.PhantomJS()
+    context.ff = webdriver.Firefox()
 
 
 @step('entrar em "{site}"')
@@ -22,4 +22,4 @@ def test_(context, site):
 @step('a palavra "{frase}" deve estar no titulo')
 def _test_(context, frase):
     assert "Python" in context.ff.title
-    context.ff.close()
+    context.ff.quit()

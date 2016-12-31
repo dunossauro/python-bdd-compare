@@ -171,10 +171,6 @@ Pontos:
 ### pontos
 
 
-Em números de linhas:
-
-Em simplicidade:
-
 ## Teste 3 - Contexto
 
 Pontos:

@@ -4,6 +4,7 @@
 |   ----     |      ---   |
 | SO         | ArchLinux  |
 | Python     | 3.5.2      |
+| Firefox    | 50.0.1     |
 
 ### Versões dos frameworks
 | framework  | Versão     |

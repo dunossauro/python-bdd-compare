@@ -1,4 +1,4 @@
-from radish import given, then, step
+from radish import given, then
 from selenium import webdriver
 
 dic = {"python": "https://www.python.org/"}
@@ -6,7 +6,7 @@ dic = {"python": "https://www.python.org/"}
 
 @given('setar o browser no selenium')
 def test(step):
-    step.context.ff = webdriver.PhantomJS()
+    step.context.ff = webdriver.Firefox()
 
 
 @given('entrar no site do {site:w}')
@@ -22,4 +22,4 @@ def test(step, site):
 @then('a palavra {frase:w} deve estar no titulo')
 def test(step, frase):
     assert frase in step.context.ff.title
-    step.context.ff.close()
+    step.context.ff.quit()

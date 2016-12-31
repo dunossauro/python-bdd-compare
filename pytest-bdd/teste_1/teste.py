@@ -9,7 +9,7 @@ ff = None
 @given('setar o browser no selenium')
 def set():
     global ff
-    ff = webdriver.PhantomJS()
+    ff = webdriver.Firefox()
 
 
 @given(parsers.parse('entrar em {site}'))
@@ -25,4 +25,4 @@ def chek(site):
 @then(parsers.parse('a palavra {palavra} deve estar no titulo'))
 def tassert(palavra):
     assert palavra in ff.title
-    ff.close()
+    ff.quit()
