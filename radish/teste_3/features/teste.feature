@@ -1,6 +1,5 @@
 Feature: Usar a busca do site do python
 
-    Scenario: Verificar se python esta no titulo do site
+    Scenario: Usar a busca do site do python
         Given entrar no site do python
-        When buscar "Collections"
-        Then fechar o browser
+        Then buscar "Collections"

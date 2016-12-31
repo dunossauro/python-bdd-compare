@@ -1,4 +1,4 @@
-from radish import before
+from radish import before, after
 from selenium import webdriver
 
 elementos = {'busca': 'id-search-field'}
@@ -8,3 +8,8 @@ elementos = {'busca': 'id-search-field'}
 def context(scenario):
     scenario.context.e = elementos
     scenario.context.ff = webdriver.Firefox()
+
+
+@after.each_scenario
+def context(scenario):
+    scenario.context.ff.quit()
